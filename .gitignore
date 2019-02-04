@@ -28,6 +28,23 @@ desktop.ini
 /fuel/packages/parser/
 
 # dynamically generated files
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
+/fuel/app/logs/
+/fuel/app/cache/
 /fuel/app/config/crypt.php
+/fuel/app/tasks/
+/fuel/app/tests/
+/fuel/app/themes/
+/fuel/app/tmp/
+/fuel/app/vendor/
+/fuel/app/bootstrap.php
+/fuel/.htaccess
+/.travis.yml
+/CHANGELOG.md
+/composer.phar
+/CONTRIBUTING.md
+/LICENSE.md
+/oil
+/README.md
+/TESTING.md
+/public/.htaccess
+/public/favicon.ico
