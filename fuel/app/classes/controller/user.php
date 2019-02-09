@@ -1,6 +1,7 @@
 <?php
 
 use \Fuel\Core\Controller_Rest;
+use \Model\User;
 
 class Controller_User extends Controller_Rest
 {
@@ -23,7 +24,7 @@ class Controller_User extends Controller_Rest
     if ($user_id) {
       // todo: get user data
     } else {
-      // todo: get user list
+      $users = User::get_users();
     }
 
     return $this->response($users);
